@@ -22,10 +22,10 @@ def some_puppies(number, maximum)
   if number/2 <= maximum 
     #&& maximum >= 3
     "Good job, Rachel!"
-  elsif  
+  else  
     "Get back to your animal goals!"
-  else
-    "Good job, Rachel!"
+  #else
+    #"Good job, Rachel!"
   end
 end
 
