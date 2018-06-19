@@ -19,14 +19,12 @@ end
 
 # 3. We've decided to give Rachel a little more control over her puppy obsession. Write a method called some_puppies that takes in two arguments - the number of puppies she has found and a maximum puppy allowance. This method should tell Rachel good job if she gets less than half her maximum allowance and to get back on her puppy restriction when she exceeds her maximum.
 def some_puppies(number, maximum)
-  if number <= maximum/2 
-    puts "Good job, Rachel!"
-  elsif 
-    puts "Get back to your animal goals!"
+  if number > 3 && maximum >= 3
+    "Get back to your animal goals!"
+  else
+    "Good job, Rachel!"
   end
 end
-
-some_puppies(4, 2)
 
 
 # BONUS
